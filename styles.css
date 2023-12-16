@@ -118,6 +118,19 @@ i {
   margin-bottom: 40px;
 }
 
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+  height: 400px;
+  overflow: hidden;
+}
+
+.mySlides img {
+  width: 100%;
+  height: auto;
+}
+
 .about-left-side {
   display: flex;
   justify-content: center;
