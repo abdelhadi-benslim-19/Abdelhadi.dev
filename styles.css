@@ -267,6 +267,9 @@ footer {
     padding: 2rem 0;
     width: 100%;
     display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 footer h3 {
@@ -356,6 +359,10 @@ footer h3 {
     width: 50%;
   }
 
+  .bottom-side {
+    width: 100%;
+  }
+
   .stacks ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -414,6 +421,10 @@ footer h3 {
   }
   
   /*footer*/
+  footer {
+    text-align: center;
+  }
+
   .footer-copy h3 {
     font-size: 21px;
   }
