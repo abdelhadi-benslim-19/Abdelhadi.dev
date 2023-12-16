@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function () {
       }    
   
       slides[slideIndex - 1].style.display = "block";  
-      setTimeout(showSlides, 5000); // Change slide every 5 seconds (adjust as needed)
+      setTimeout(showSlides, 3500); // Change slide every 3.5 seconds (adjust as needed)
     }
   });
   
