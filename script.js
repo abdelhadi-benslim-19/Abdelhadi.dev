@@ -16,6 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
 // Slideshow function
+// JavaScript
 document.addEventListener('DOMContentLoaded', function () {
     let slideIndex = 0;
     showSlides();
@@ -35,15 +36,7 @@ document.addEventListener('DOMContentLoaded', function () {
       }    
   
       slides[slideIndex - 1].style.display = "block";  
-      setTimeout(showSlides, 3000); // Change slide every 3 seconds (adjust as needed)
+      setTimeout(showSlides, 5000); // Change slide every 5 seconds (adjust as needed)
     }
-  
-    // Manual navigation functions
-    window.plusSlides = function(n) {
-      showSlides(slideIndex += n);
-    };
-  
-    window.currentSlide = function(n) {
-      showSlides(slideIndex = n);
-    };
   });
+  
