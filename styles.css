@@ -437,6 +437,6 @@ footer h3 {
 
 @media screen and (max-width: 576px) {
   .stacks ul {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
   }
 }
