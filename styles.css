@@ -441,22 +441,16 @@ footer h3 {
   
   /*footer*/
   footer {
-    text-align: center;
+    padding: 1rem;
   }
 
-  .container {
-    display: flex;
+  footer h3 {
+    font-size: 1.3rem;
+  }
+
+  .footer-socials {
     flex-direction: column;
-    justify-items: center;
-    justify-content: center;
-  }
-
-  .footer-copy h3 {
-    font-size: 21px;
-  }
-
-  .footer-socials i {
-    font-size: 25px;
+    gap: 1rem;
   }
 
 }
