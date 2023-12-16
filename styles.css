@@ -303,7 +303,7 @@ footer h3 {
 }
 
 /* Responsive Styles */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px), screen and (max-width: 576) {
   /*Navbar*/
   .navbar {
     display: none;
@@ -433,4 +433,10 @@ footer h3 {
     font-size: 25px;
   }
 
+}
+
+@media screen and (max-width: 576px) {
+  .stacks ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
