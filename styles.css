@@ -316,7 +316,7 @@ footer h3 {
 }
 
 /* Responsive Styles */
-@media screen and (max-width: 768px), screen and (max-width: 576) {
+@media screen and (max-width: 768px), screen and (max-width: 576px) {
   /*Navbar*/
   .navbar {
     display: none;
